@@ -1,0 +1,101 @@
+body {
+    background-color: #A3C7CA;
+}
+
+/*.icones-sociais-link .container {
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+
+}
+
+#logotipo {
+    text-align: left;
+} */
+
+.img-lado {
+    width: 500px;
+    height:auto
+}
+.img-lado, .texto-lado {
+    display: inline-block;
+}
+
+/*doces-section */
+
+.doces-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.doce-box {
+    flex:  1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 280px;
+    background-size: cover;
+    border-right: 4px solid #ffacac;
+    border-bottom: 4px solid #ffacac;
+}
+
+.doce1 {
+    background-image: url(/img/doce1.jpeg);
+}
+
+.doce2 {
+    background-image: url(/img/doce2.jpeg);
+}
+
+.doce3 {
+    background-image: url(/img/doce3.jpeg);
+}
+
+.doce4 {
+    background-image: url(/img/doce4.jpeg);
+}
+
+.doce5 {
+    background-image: url(/img/doce5.jpeg);
+}
+
+.doce6 {
+    background-image: url(/img/doce6.jpeg);
+}
+
+.doce7 {
+    background-image: url(/img/doce7.jpeg);
+}
+
+.doce8 {
+    background-image: url(/img/doce8.jpeg);
+}
+
+
+/*redes-sociais-section */
+
+
+ #navbar {
+    background-color: #ffacac;
+    padding: 0 15px;
+    height: 80px;
+}
+
+#navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+
+#navbar nav {
+    float: right;
+    
+}
+
+.icones-img {
+    width: 50px;
+    height: auto;
+}
